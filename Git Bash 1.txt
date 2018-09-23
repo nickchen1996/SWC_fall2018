@@ -1,0 +1,190 @@
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ ls
+Data.zip  gapminder.txt
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ mkdir unix_shell
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ ls
+Data.zip  gapminder.txt  unix_shell/
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ mkdir India
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ mkdir Japan
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ ls
+Data.zip  gapminder.txt  India/  Japan/  unix_shell/
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ touch MyFirstFile.txt
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ ls
+Data.zip  gapminder.txt  India/  Japan/  MyFirstFile.txt  unix_shell/
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ touch Nick
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ cat MyFirstFile.txt
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ cat MyFirstFile.txt
+This is Software Carpentry Workshop
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ pwd
+/c/Users/³ÂêØ/Desktop/SWC_fall_2018
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ touch myFirstFile
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ ls
+Data.zip  gapminder.txt  India/  Japan/  myFirstFile  MyFirstFile.txt  Nick  unix_shell/
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ pwd
+/c/Users/³ÂêØ/Desktop/SWC_fall_2018
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ mv MyFirstFIle.txt Japan/
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ ls
+Data.zip  gapminder.txt  India/  Japan/  myFirstFile  Nick  unix_shell/
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ cd Japan
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ ls
+MyFirstFIle.txt
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ mv MyFirstFile.txt ../
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ ls
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ cd ..
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ pwd
+/c/Users/³ÂêØ/Desktop/SWC_fall_2018
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ ls
+Data.zip  gapminder.txt  India/  Japan/  myFirstFile  MyFirstFile.txt  Nick  unix_shell/
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ mv MyFirstFIle.txt Japan/
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018
+$ cd Japan
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ ls
+MyFirstFIle.txt
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ cp MyFirstFile.txt ../India/
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ ls ../India/
+MyFirstFile.txt
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ cd .. /India/
+bash: cd: too many arguments
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ ls
+MyFirstFIle.txt
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ rm MyFirstFile.txt
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ ls
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ touch MyFirstFile.txt
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ mv MyFirstFile.txt MyFirstFile.sh
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ touch MyFirstFile.txt
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ mv MyFirstFile.txt MyFirstFile.sh
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ rm -r India
+rm: cannot remove 'India': No such file or directory
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ rm -r Japan
+rm: cannot remove 'Japan': No such file or directory
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ ls
+MyFirstFile.sh
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ mv MyFirstFile.sh unix_shell
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ mv unix_shell MyFirstFile.sh
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ cp MyFirstFile.sh ../unix_shell/
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ ls
+MyFirstFile.sh
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~/Desktop/SWC_fall_2018/Japan
+$ cd
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~
+$ cd
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~
+$ cp -r Data/ unix_shell/
+cp: cannot stat 'Data/': No such file or directory
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~
+$ ls
+ ¡¸¿ªÊ¼¡¹²Ëµ¥@        Contacts/    Downloads/              'Local Settings'@        NetHood@          NTUSER.DAT{6e16f0c3-b526-11e8-a7d3-94b86d5869fb}.TM.blf                                        OneDrive/    Roaming/        Templates@
+'3D Objects'/         Cookies@     Favorites/               MicrosoftEdgeBackups/   NTUSER.DAT        NTUSER.DAT{6e16f0c3-b526-11e8-a7d3-94b86d5869fb}.TMContainer00000000000000000001.regtrans-ms   Pictures/   'Saved Games'/   Videos/
+ AppData/             Desktop/     IntelGraphicsProfiles/   Music/                  ntuser.dat.LOG1   NTUSER.DAT{6e16f0c3-b526-11e8-a7d3-94b86d5869fb}.TMContainer00000000000000000002.regtrans-ms   PrintHood@   Searches/
+'Application Data'@   Documents/   Links/                  'My Documents'@          ntuser.dat.LOG2   ntuser.ini                                                                                     Recent@      SendTo@
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~
+$ cp -r Data.zip unix_shell/
+cp: cannot stat 'Data.zip': No such file or directory
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~
+$ cp -r gapminder txt. unix_shell/
+cp: target 'unix_shell/' is not a directory
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~
+$ cp -r Data/gapminder /unix_shell/
+cp: cannot stat 'Data/gapminder': No such file or directory
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~
+$ ls
+ ¡¸¿ªÊ¼¡¹²Ëµ¥@        Contacts/    Downloads/              'Local Settings'@        NetHood@          NTUSER.DAT{6e16f0c3-b526-11e8-a7d3-94b86d5869fb}.TM.blf                                        OneDrive/    Roaming/        Templates@
+'3D Objects'/         Cookies@     Favorites/               MicrosoftEdgeBackups/   NTUSER.DAT        NTUSER.DAT{6e16f0c3-b526-11e8-a7d3-94b86d5869fb}.TMContainer00000000000000000001.regtrans-ms   Pictures/   'Saved Games'/   Videos/
+ AppData/             Desktop/     IntelGraphicsProfiles/   Music/                  ntuser.dat.LOG1   NTUSER.DAT{6e16f0c3-b526-11e8-a7d3-94b86d5869fb}.TMContainer00000000000000000002.regtrans-ms   PrintHood@   Searches/
+'Application Data'@   Documents/   Links/                  'My Documents'@          ntuser.dat.LOG2   ntuser.ini                                                                                     Recent@      SendTo@
+
+³ÂêØ@DESKTOP-HT2L4IV MINGW64 ~
+$
